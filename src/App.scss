@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: unset;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100vh;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+  background: -moz-radial-gradient(
+    circle at 2% 19%,
+    rgba(4, 44, 84, 1) 0%,
+    rgba(4, 12, 24, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle at 2% 19%,
+    rgba(4, 44, 84, 1) 0%,
+    rgba(4, 12, 24, 1) 100%
+  );
+  background: -o-radial-gradient(
+    circle at 2% 19%,
+    rgba(4, 44, 84, 1) 0%,
+    rgba(4, 12, 24, 1) 100%
+  );
+  background: -ms-radial-gradient(
+    circle at 2% 19%,
+    rgba(4, 44, 84, 1) 0%,
+    rgba(4, 12, 24, 1) 100%
+  );
+  background: radial-gradient(
+    circle at 2% 19%,
+    rgba(4, 44, 84, 1) 0%,
+    rgba(4, 12, 24, 1) 100%
+  );
+}
+
+.container {
+  width: 1200px;
+  height: 60px;
+  margin: 0 auto;
+}

@@ -1,0 +1,44 @@
+.navbar {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__navbar-logo img {
+    width: 62.56px;
+    height: 16.02px;
+  }
+  &__navbar-menu {
+    width: 566px;
+    height: 25px;
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      li a {
+        font-family: var(--font-family);
+        font-weight: 500;
+        color: #fff;
+      }
+    }
+  }
+  &__navbar-btn_container {
+    width: 235px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+
+    button {
+      outline: none;
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+      color: #fff;
+      padding: 10px 16px;
+    }
+    button:nth-last-child(1) {
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      background-color: var(--color-button-bg);
+    }
+  }
+}
