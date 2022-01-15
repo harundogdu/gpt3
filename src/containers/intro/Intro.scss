@@ -30,6 +30,7 @@
       background-image: var(--gradient-text);
       background-size: 100%;
       background-repeat: repeat;
+      background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       -moz-background-clip: text;
@@ -47,8 +48,8 @@
       padding: 20px 0px;
     }
     span {
-        font-family: var(--font-family);
-        color: var(--color-subtext);
+      font-family: var(--font-family);
+      color: var(--color-subtext);
       font-weight: 500;
       font-size: 16px;
       line-height: 30px;
