@@ -1,0 +1,43 @@
+.cta {
+  width: 100%;
+  height: 172px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 100px 0;
+  background: var(--gradient-bar);
+  padding: 0 30px;
+  border-radius: 8px;
+  &__left {
+    display: flex;
+    flex-direction: column;
+    span {
+      font-family: var(--font-family);
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 30px;
+      color: var(--color-black-80);
+    }
+    h6 {
+      font-family: var(--font-family);
+      font-weight: 800;
+      font-size: 24px;
+      line-height: 45px;
+    }
+  }
+  &__right {
+    button {
+      background: #000000;
+      border-radius: 40px;
+      font-family: var(--font-family);
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 30px;
+      color: #ffffff;
+      padding: 10px 24px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+    }
+  }
+}
