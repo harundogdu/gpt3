@@ -1,6 +1,6 @@
 export { default as Navbar } from "./navbar/Navbar";
 export { default as Header } from "./header/Header";
-export { default as Componies } from "./componies/Componies";
+export { default as Companies } from "./companies/Companies";
 export { default as WGPT3 } from "./wgpt3/WGPT3";
 export { default as Feature } from "./feature/Feature";
 export { default as Intro } from "./intro/Intro";

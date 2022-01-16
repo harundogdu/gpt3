@@ -7,7 +7,7 @@ const Navbar = () => {
     {
       id: 1,
       name: "Home",
-      href: "/",
+      href: "#home",
     },
     {
       id: 2,
@@ -31,7 +31,7 @@ const Navbar = () => {
     },
   ];
   return (
-    <div className="navbar">
+    <div className="navbar" id="home">
       <div className="navbar__navbar-logo">
         <img src={Logo} alt="Logo_Image" />
       </div>

@@ -3,7 +3,7 @@ import "./App.scss";
 import {
   Navbar,
   Header,
-  Componies,
+  Companies,
   WGPT3,
   Feature,
   Intro,
@@ -18,7 +18,7 @@ function App() {
       <div className="container">
         <Navbar />
         <Header />
-        <Componies />
+        <Companies />
         <WGPT3 />
         <Feature />
         <Intro />

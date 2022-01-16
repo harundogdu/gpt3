@@ -3,7 +3,7 @@ import "./Intro.scss";
 import PossibilityImage from "assets/possibility.png";
 const Intro = () => {
   return (
-    <div className="intro">
+    <div className="intro" id="case-studies">
       <div className="intro__left">
         <img src={PossibilityImage} alt="possibility" />
       </div>

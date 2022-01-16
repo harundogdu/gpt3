@@ -24,7 +24,7 @@ const Feature = () => {
     },
   ];
   return (
-    <div className="feature">
+    <div className="feature" id="open-ai">
       <div className="feature__left">
         <h2>
           The Future is Now and You Just Need To Realize It. Step into Future

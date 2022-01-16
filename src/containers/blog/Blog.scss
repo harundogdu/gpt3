@@ -3,7 +3,7 @@
   height: 961.95px;
   display: flex;
   flex-direction: column;
-  gap: 3rem 0;
+  gap: 5rem 0;
   &__header {
     font-family: var(--font-family);
     font-weight: 800;
@@ -22,52 +22,115 @@
     -moz-text-fill-color: transparent;
   }
   &__container {
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    &__item {
-      width: 320px;
-      height: 320px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin: 20px;
-      background: #042c54;
-      border-top-left-radius: 30px;
-      &__image {
-        width: 320px;
-        height: 120px;
-        img {
+    gap: 0 6rem;
+    &__groupA {
+      width: 424px;
+      &__item {
+        width: 424px;
+        height: 660px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #042c54;
+        border-top-left-radius: 100px;
+        transition: ease-in-out 0.2s;
+        &:hover {
+          cursor: pointer;
+          background-color: rgba(0, 0, 0, 1);
+        }
+        &__image {
           width: 100%;
-          height: 100%;
-          object-fit: cover;
+          height: 287px;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        &__content {
+          flex: 1;
+          padding: 5px 15px 0 20px;
+          &__date {
+            font-family: var(--font-family);
+            font-weight: bold;
+            font-size: 11.649px;
+            line-height: 35px;
+            color: rgba(255, 255, 255, 0.8);
+          }
+          &__title {
+            font-family: var(--font-family);
+            font-weight: 800;
+            font-size: 32px;
+            line-height: 46px;
+            flex: 1;
+            height: 290px;
+            color: #fff;
+          }
+          &__more {
+            font-family: var(--font-family);
+            font-weight: bold;
+            font-size: 11.649px;
+            line-height: 35px;
+            color: rgba(255, 255, 255, 0.8);
+          }
         }
       }
-      &__content {
-        flex: 1;
-        padding: 5px 15px 0 20px;
-        &__date {
-          font-family: var(--font-family);
-          font-weight: bold;
-          font-size: 11.649px;
-          line-height: 35px;
-          color: rgba(255, 255, 255, 0.8);
+    }
+    &__groupB {
+      display: flex;
+      flex-wrap: wrap;
+      &__item {
+        width: 320px;
+        height: 320px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #042c54;
+        border-top-left-radius: 40px;
+        transition: ease-in-out 0.1s;
+        &:hover {
+          cursor: pointer;
+          background-color: rgba(0, 0, 0, 1);
         }
-        &__title {
-          font-family: var(--font-family);
-          font-weight: 800;
-          font-size: 19.3154px;
-          line-height: 30px;
-          flex: 1;
+        &__image {
+          width: 100%;
           height: 120px;
-          color: #fff;
+          img {
+            width: 100%;
+            height: 100%;
+          }
         }
-        &__more {
-          font-family: var(--font-family);
-          font-weight: bold;
-          font-size: 11.649px;
-          line-height: 35px;
-          color: rgba(255, 255, 255, 0.8);
+        &__content {
+          flex: 1;
+          padding: 5px 15px 0 20px;
+          &__date {
+            font-family: var(--font-family);
+            font-weight: bold;
+            font-size: 11.649px;
+            line-height: 35px;
+            color: rgba(255, 255, 255, 0.8);
+          }
+          &__title {
+            font-family: var(--font-family);
+            font-weight: 800;
+            font-size: 19.3154px;
+            line-height: 30px;
+            flex: 1;
+            height: 120px;
+            color: #fff;
+          }
+          &__more {
+            font-family: var(--font-family);
+            font-weight: bold;
+            font-size: 11.649px;
+            line-height: 35px;
+            color: rgba(255, 255, 255, 0.8);
+          }
         }
       }
     }

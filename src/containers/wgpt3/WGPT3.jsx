@@ -22,7 +22,7 @@ const WGPT3 = () => {
     },
   ];
   return (
-    <div className="wgpt3">
+    <div className="wgpt3" id="what-is-gpt">
       <div className="wgpt3__header">
         <div className="wgpt3__header__title">
           <h3>What is GPT-3</h3>

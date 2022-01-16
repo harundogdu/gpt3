@@ -1,11 +1,11 @@
 import React from "react";
-import "./Componies.scss";
+import "./Companies.scss";
 import GoogleImage from "assets/google.png";
 import SlackImage from "assets/slack.png";
 import AtlassianImage from "assets/atlassian.png";
 import DropBoxImage from "assets/dropbox.png";
 import ShopifyImage from "assets/shopify.png";
-const Componies = () => {
+const Companies = () => {
   const brandsItems = [
     {
       id: 1,
@@ -53,4 +53,4 @@ const Componies = () => {
   );
 };
 
-export default Componies;
+export default Companies;
