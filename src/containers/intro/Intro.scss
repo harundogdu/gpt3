@@ -5,7 +5,6 @@
   align-items: flex-end;
   justify-content: center;
   &__left {
-    flex: 1;
     height: 100%;
     img {
       width: 100%;
@@ -14,8 +13,9 @@
     }
   }
   &__right {
-    width: 45%;
+    flex: 1;
     padding-bottom: 30px;
+    padding-right: 180px;
     h4 {
       color: var(--color-aqua);
       font-family: var(--font-family);
